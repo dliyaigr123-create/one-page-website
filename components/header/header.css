@@ -1,0 +1,180 @@
+.header {
+    background-image: var(--bc-gradient), url('../../images/Layer\ 15.png');
+    width: 100%;
+    min-height: 100vh;
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 45px;
+}
+
+.container__inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    gap: 60px;
+}
+.header__top-title {
+    color: var(--color-white-standart);
+    font-family: var(--ff-montserrat-700);
+    font-weight: var(--fw-Bold);
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    
+}
+.header__top-title:hover {
+    color: blueviolet;
+    font-family: var(--ff-montserrat-700);
+    font-weight: var(--fw-Bold);
+    letter-spacing: 1px;
+    
+    
+}
+.header__nav {
+}
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__nav-item {
+}
+.header__nav-link {
+    color: var(--color-gray);
+    transition: all 0.1s ease;
+}
+
+.header__nav-link:hover {
+    color: var(--color-hover-header);
+    border-bottom: 3px solid var(--color-hover-header);
+    padding-bottom: 5px;
+}
+
+/* ! Header-main */
+
+.container__header-main {
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: var(--color-white-standart);
+    font-family: var(--ff-montserrat-700);
+    font-weight: var(--fw-Bold);
+}
+.header__main-subtitle {
+    font-size: 45px;
+    font-family: var(--ff-kaushanScript-Regular);
+    font-weight: var(--fw-Regular);
+}
+.header__main-title {
+    text-align: center;
+    font-size: 120px;
+    width: 800px;
+    letter-spacing: 5px;
+    font-family: var(--ff-montserrat-700);
+    font-weight: var(--fw-Bold);
+}
+
+.border__bottom {
+    border-bottom: 4px solid var(--color-white-standart);
+    width: 70px;
+    margin-bottom: 20px;
+}
+.header__main-button {
+    padding: 10px 30px;
+    background: inherit;
+    border: 3px solid var(--color-white-standart);
+    color: var(--color-white-standart);
+    transition: all 0.3s ease;
+}
+
+.header__main-button:hover {
+    padding: 10px 30px;
+    background: inherit;
+    background-color: rgb(163, 78, 78);
+    border: 3px solid var(--color-white-standart);
+    color: var(--color-white-standart);
+    cursor: pointer;
+}
+
+/* ! Border */
+
+.container__border {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.border-1 {
+}
+.borders-1 {
+    width: 250px;
+    height: 4px;
+    margin-bottom: 20px;
+    background: var(--color-gray);
+    cursor: pointer;
+}
+
+.borders-2 {
+    width: 250px;
+    height: 4px;
+    margin-bottom: 20px;
+    background: var(--color-gray);
+    cursor: pointer;
+}
+
+.borders-3 {
+    width: 250px;
+    height: 4px;
+    margin-bottom: 20px;
+    background: var(--color-gray);
+    cursor: pointer;
+}
+
+.borders-4 {
+    width: 250px;
+    height: 4px;
+    margin-bottom: 20px;
+    background: var(--color-gray);
+    cursor: pointer;
+}
+
+.borders-1.active:hover {
+    background: linear-gradient(90deg,rgba(243, 129, 129, 1) 30%, rgba(255, 255, 255, 1) 30%);
+}
+
+.borders-2.active:hover {
+    background: linear-gradient(90deg,rgba(243, 129, 129, 1) 30%, rgba(255, 255, 255, 1) 30%);
+}
+
+.borders-3.active:hover {
+    background: linear-gradient(90deg,rgba(243, 129, 129, 1) 30%, rgba(255, 255, 255, 1) 30%);
+}
+
+.borders-4.active:hover {
+    background: linear-gradient(90deg,rgba(243, 129, 129, 1) 30%, rgba(255, 255, 255, 1) 30%);
+}
+
+.border__text {
+    font-size: 30px;
+    color: var(--color-white-standart);
+    font-family: var(--ff-montserrat-600);
+    font-weight: var(--fw-Semi-Bold);
+}
+
+.border__text span {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.border-2 {
+}
+.border-3 {
+}
+.border-4 {
+}
+

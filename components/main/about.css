@@ -1,0 +1,148 @@
+.about {
+    margin-bottom: 45px;
+}
+
+.about__block-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 45px;
+}
+.about__subtitle {
+    font-family: var(--ff-kaushanScript-Regular);
+    font-weight: var(--fw-Regular);
+}
+.about__title {
+    font-family: var(--ff-montserrat-700);
+    font-weight: var(--fw-Bold);
+    font-size: 30px;
+}
+.about-border {
+    border: 1px solid var(--color-red);
+    width: 60px;
+}
+.about__description {
+    text-align: center;
+    font-size: 15px;
+    color: var(--color-text);
+    width: 600px;
+}
+.about__block-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.about-img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-image: url('../../images/story-about-1.png');
+    cursor: pointer;
+}
+
+.about-img1 img {
+    visibility: hidden;
+}
+
+.active__text {
+    visibility: hidden;
+}
+
+.about-img1:hover img {
+    visibility: visible;
+}
+
+.about-img1:hover .active__text {
+    visibility: visible;
+    color: var(--color-white-standart);
+    font-size: 20px;
+    font-family: var(--ff-montserrat-600);
+}
+
+.about-img2 {
+    background-image: url('../../images/story-about-2.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.about-img2 img {
+    visibility: hidden;
+}
+
+.about-img2:hover img {
+    visibility: visible;
+}
+
+.about-img2:hover .active__text {
+    visibility: visible;
+    color: var(--color-white-standart);
+    font-size: 20px;
+    font-family: var(--ff-montserrat-600);
+}
+
+.about-img3 {
+    background-image: url('../../images/story-about-3.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.about-img3 img {
+    visibility: hidden;
+}
+
+.about-img3:hover img {
+    visibility: visible;
+}
+
+.about-img3:hover .active__text {
+    visibility: visible;
+    color: var(--color-white-standart);
+    font-size: 20px;
+    font-family: var(--ff-montserrat-600);
+}
+
+.about-img1.active:hover {
+    box-shadow: 10px 10px 0px 1px var(--bc-color-green);
+-webkit-box-shadow: 10px 10px 0px 1px var(--bc-color-green);
+-moz-box-shadow: 10px 10px 0px 1px  var(--bc-color-green);
+background-image: var(--bc-gradient),url('../../images/story-about-1.png');
+
+}
+
+.about-img2.active:hover {
+    box-shadow: 10px 10px 0px 1px var(--bc-color-green);
+-webkit-box-shadow: 10px 10px 0px 1px var(--bc-color-green);
+-moz-box-shadow: 10px 10px 0px 1px  var(--bc-color-green);
+background-image: var(--bc-gradient),url('../../images/story-about-2.png');
+
+}
+
+.about-img3.active:hover {
+    box-shadow: 10px 10px 0px 1px var(--bc-color-green);
+-webkit-box-shadow: 10px 10px 0px 1px var(--bc-color-green);
+-moz-box-shadow: 10px 10px 0px 1px  var(--bc-color-green);
+background-image: var(--bc-gradient),url('../../images/story-about-3.png');
+
+}

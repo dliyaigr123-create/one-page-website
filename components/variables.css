@@ -1,0 +1,33 @@
+:root {
+    --color-white-standart: #FFFFFF;
+    --color-black: #333333;
+    --color-gray: #d8d8d8;
+    --color-red: #F38181;
+    --color-title: #333333;
+    --color-text: #B1B1B1;
+
+    --ff-blackOpsOne-Regular: BlackOpsOne-Regular, sans-serif;
+    --ff-inconsolata-300: Inconsolata-300, sans-serif;
+    --ff-kanit-italic: Kanit-italic, sans-serif;
+    --ff-kaushanScript-Regular: KaushanScript-Regular, sans-serif;
+    --ff-lora-400: Lora-400, sans-serif;
+    --ff-montserrat-600: Montserrat-600, sans-serif;
+    --ff-montserrat-700: Montserrat-700, sans-serif;
+    --ff-montserratAlternates-600: MontserratAlternates-600, sans-serif;
+    --ff-roboto-300: Roboto-300, sans-serif;
+    --ff-roboto-400: Roboto-400, sans-serif;
+
+    --fw-Light: 300;
+    --fw-Regular: 400;
+    --fw-Semi-Bold: 600;
+    --fw-Bold: 700;
+
+    --bc-color-green: #95E1D3;
+    --bc-color-gray: #F8F8F8;
+
+    --color-hover-header: #F7CB88;
+
+    --border-color: #FFFFFF;
+
+    --bc-gradient: linear-gradient(rgba(232, 134, 131, 0.8)40%,rgba(238,212,136,0.8));
+}
