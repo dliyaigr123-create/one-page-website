@@ -31,5 +31,6 @@
 
     --border-color: #FFFFFF;
 
+    --bc-gradient-green: linear-gradient(90deg,rgba(149, 225, 211, 1) 40%, rgba(248, 248, 248, 1) 40%);
     --bc-gradient: linear-gradient(rgba(232, 134, 131, 0.8)40%,rgba(238,212,136,0.8));
 }
