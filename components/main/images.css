@@ -1,0 +1,135 @@
+/* ! TEXT */
+.images__text-block {
+    margin-top: 45px;
+}
+.images__block-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 45px;
+}
+.images__subtitle {
+    font-family: var(--ff-kaushanScript-Regular);
+    font-weight: var(--fw-Regular);
+}
+
+.images__title {
+    font-family: var(--ff-montserrat-700);
+    font-weight: var(--fw-Bold);
+    font-size: 30px;
+}
+
+.images-border {
+    border: 1px solid var(--color-red);
+    width: 60px;
+}
+
+.images__description {
+    text-align: center;
+    font-size: 15px;
+    color: var(--color-text);
+    width: 600px;
+}
+
+
+/* ! IMAGES */
+
+.images__img-block {
+  display: flex;
+  width: 100%;
+}
+
+.images__col {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+}
+
+.images__col img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
+
+.images__col img.img-full-height {
+  height: 100%;
+}
+
+/* ! COMMENT */
+.bc__images {
+    margin-bottom: 45px;
+    padding: 30px;
+}
+
+.bc__images-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 0;
+}
+
+.bc__images-top {
+   display: flex;
+   align-items: center;
+   gap: 50px;
+}
+
+.bc__images-top img {
+    display: block;
+    width: 250px;
+    object-fit: contain;
+}
+
+.images__border-left {
+     width: 60px;
+    height: 20px;
+    border-right: 2px solid var(--color-hr);
+    border-top: 2px solid var(--color-hr);
+    transform: rotate(230deg);
+}
+
+.images__border-left:hover {
+    cursor: pointer;
+    border-color: chocolate;
+}
+
+.bc-images__description {
+    font-size: 20px;
+    color: var(--color-text);
+    font-family: var(--ff-roboto-400);
+    font-weight: var(--fw-Regular);
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.images__border-right {
+    width: 60px;
+    height: 20px;
+    border-right: 2px solid var(--color-hr);
+    border-top: 2px solid var(--color-hr);
+    transform: rotate(40deg);
+}
+
+.images__border-right:hover {
+    cursor: pointer;
+    border-color: chocolate;
+}
+
+.bc__images-bottom {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 20px;
+   margin-top: -20px;
+   margin-left: 320px;
+}
+
+.images__border-bottom {
+    border-bottom: 4px solid red;
+    width: 80px;
+}
+

@@ -44,9 +44,9 @@
 }
 .team__block-images {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 25px;
 }
 .team-img1 {
     display: flex;
