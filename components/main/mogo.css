@@ -1,0 +1,177 @@
+/* Родителю задаем flex-режим */
+.mogo {
+    margin-bottom: 45px;
+}
+
+.mogo-wrapper-main {
+  display: flex;
+  justify-content: center;
+  gap: 40px;             
+  align-items: flex-start;
+  margin-bottom: 35px;  
+}
+
+.mogo-left, 
+.mogo-center, 
+.mogo-right {
+flex: 1 1 0; 
+}
+
+
+.mogo-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.mogo-left-title {
+    color: var(--color-gray);
+    font-family: var(--ff-montserrat-700);
+    font-weight: var(--fw-Bold);
+    font-size: 45px;
+}
+.mogo-left-description {
+    color: var(--color-text);
+}
+.mogo-left-followers {
+    color: var(--color-black);
+    font-family: var(--ff-roboto-400);
+}
+
+.mogo-left span {
+    color: var(--color-black);
+    font-family: var(--ff-montserrat-700);
+    font-weight: var(--fw-Bold);
+}
+
+.mogo-left-border {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-hr);
+}
+.mogo-left-svg {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.mogo-left-svg-text {
+    color: var(--color-text);
+    font-family: var(--ff-kanit-italic);
+}
+.mogo-left-svg-flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mogo-left-svg-flex:hover img {
+    cursor: pointer;
+}
+
+.mogo-left-input {
+    display: flex;
+    align-items: center;
+}
+
+.mogo-left-input input {
+    width: 280px;
+    height: 48px;
+    padding: 0 16px;
+    border: 1px solid #dcdcdc;
+    border-right: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 6px 0 0 6px;
+    box-sizing: border-box;
+    transition: border-color .3s;
+}
+
+.mogo-left-input input:focus {
+    border-color: var(--bc-color-green);
+}
+
+.mogo-left-btn {
+    height: 48px;
+    padding: 0 24px;
+    border: none;
+    background: var(--bc-color-green);
+    color: var(--color-white-standart);
+    font-family: var(--ff-montserrat-600);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0 6px 6px 0;
+    transition: background .3s;
+    box-sizing: border-box;
+}
+
+.mogo-left-btn:hover {
+    background: #67c7b8;
+}
+/* ! Center */
+.mogo-center {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+       
+}
+.mogo-center-title {
+    font-family: var(--ff-montserrat-600);
+    font-weight: var(--fw-Semi-Bold);
+}
+.mogo-center-images-block {
+    display: flex;
+    flex-direction: column;
+    gap:65px;
+}
+.mogo-center-images-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+.mogo-center-images-block-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mogo-center-images-block-text-description {
+    width: 100%;
+    max-width: 250px;
+    font-family: var(--ff-inconsolata-300);
+    text-transform: uppercase;
+}
+.mogo-center-images-block-text-gray {
+    color: var(--color-text);
+}
+
+/* ! right */
+
+.mogo-right {
+   display: flex;
+   flex-direction: column;
+   gap: 45px;
+}
+.mogo-right-title {
+    font-family: var(--ff-montserrat-600);
+    font-weight: var(--fw-Semi-Bold);
+}
+
+.mogo-right-images-block {
+}
+.mogo-right-text {
+    font-family: var(--ff-kanit-italic);
+    font-weight: var(--fw-Light);
+}
+
+.mogo-bottom-border {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-hr);
+}
+
+.mogo-bottom-text {
+    font-family: var(--ff-montserrat-600);
+    margin-top: 15px;
+    text-align: center;
+}
